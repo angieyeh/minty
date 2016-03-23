@@ -6,7 +6,7 @@ body {
   display: inline;
 }
 
-#error {
+#error-msg {
   font-size: 20px;
 }
 
