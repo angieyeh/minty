@@ -18,6 +18,7 @@
 
       #step {
         margin-top: 2em;
+        display: inline;
       }
 
       .current {
@@ -26,6 +27,19 @@
 
       .error {
         background-color: red !important;
+      }
+
+      #error-msg {
+        font-size: 20px;
+      }
+
+      #return {
+        font-size: 20px;
+      }
+
+      #return span {
+        font-size: 20px;
+        color: green;
       }
   </style>
   <script src="https://code.jquery.com/jquery-2.2.1.min.js" type="text/javascript"></script>
@@ -56,7 +70,8 @@
       <table id="main-array-table"></table>
       <p id="return"></p>
 
-      <p id="error-msg"></p>
+
+      <p id="errormsg"></p>
 
     </div>
 

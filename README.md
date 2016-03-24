@@ -24,7 +24,7 @@ and let us know if you've found a significant bug.
 
 ## How-To
 
-1. `npm install minty --save-dev` (don't use minty in production!)
+1. `npm install -g minty` or `npm install --save-dev minty` (don't use minty in production!)
 1. `const minty = require ('minty');` in the file you'd like to analyze
 1. You can execute an entire file by typing `minty.file(//path to file)`. Note, the file path must be absolute, e.g. `minty.file(path.join(__dirname, ../lib/test.js))`
 1. You can also 'mintify' a function by typing `var newFunc = mint.wrap(initialFunc)`, and then execute it by calling `newFunc()`

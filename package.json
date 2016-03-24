@@ -4,7 +4,8 @@
   "description": "Node process visualization",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha ./test",
+    "zombie": "mocha --timeout 8000 test/front-end-test.js"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,12 @@
     "async": "^1.5.2",
     "bluebird": "^3.3.4",
     "decomment": "^0.8.5",
-    "lodash": "^4.6.1"
+    "lodash": "^4.6.1",
+    "mocha": "^2.4.5"
+  },
+  "devDependencies": {
+    "eslint": "^2.4.0",
+    "expect": "^1.15.2",
+    "zombie": "^4.2.1"
   }
 }
