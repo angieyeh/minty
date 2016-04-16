@@ -114,10 +114,6 @@ Both methods create a file with the structure -  `minty/ <file || function> / <f
 
 ## Roadmap
 
-* Show execution path through multiple files, for instance for middleware
-* Good UX
-* Display nested variables
-* Track variable state under more edge cases
-* Output packaged in one file that you can share with your co-workers
-* Better UX
-* Your feature here &mdash; [let us know](https://github.com/lumpy-turnips/minty/issues/new)!
+Check our our public [roadmap on Trello](https://trello.com/b/8sh1R13O)!
+
+Find an issue? [let us know](https://github.com/lumpy-turnips/minty/issues/new).
