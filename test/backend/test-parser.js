@@ -20,7 +20,7 @@ HOWTO: add a new checked node type
     e.g. expectedCallbacks: 1
 4. add the key:value pair hasCallbacks: false, to help the test
 */
-<<<<<<< HEAD
+
 var checkedTypes = {
   VariableDeclaration: { found: false, expectedCallbacks: 2, hasCallbacks: false, },
   ForStatement:  { found: false, expectedCallbacks: 0, hasCallbacks: false, },
